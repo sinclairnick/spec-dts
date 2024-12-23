@@ -35,7 +35,8 @@ type GetPostsResult = Api["GET /posts"]["Output"]
 - [Why?](#why)
 - [How?](#how)
 - [API Reference](#api-reference)
-  - [ParseSpec](#parsespect)
+  - [`ParseSpec<T>`](#parsespect)
+  - [`Parse[Part]<T>`](#parsext)
 
 ## Why?
 
@@ -76,7 +77,7 @@ curl -s "<your-openapi-url>" |\ # Get openapi spec
   awk '{print "export type Spec = `"$0"`;"}' >> spec.d.ts # Save to file
 ```
 
-### `ParseX<T>`
+### `Parse[Part]<T>`
 
 On top of parsing the entire spec, we can parse individual parts, like schema, params or operations. These are the internally used types used to parse the spec as a whole.
 
