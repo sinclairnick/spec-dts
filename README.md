@@ -1,4 +1,4 @@
-## Spec-dts
+# Spec-dts
 
 Spec-dts enables inferring the types from an OpenAPI spec without any code generation – just good old TypeScript type inference.
 
@@ -30,12 +30,12 @@ type Api = ParseSpec<Spec>;
 type GetPostsResult = Api["GET /posts"]["Output"]
 ```
 
-# Table of Contents
+## Table of Contents
 
 - [Why?](#why)
 - [How?](#how)
 - [API Reference](#api-reference)
-  - [ParseSpec](#parsespec)
+  - [ParseSpec](#parsespect)
 
 ## Why?
 
