@@ -24,6 +24,11 @@
     "typescript",
     "inference"
   ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
