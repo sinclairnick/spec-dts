@@ -46,6 +46,8 @@ When consuming APIs that offer an OpenAPI spec, we're forced to use bloated code
 
 By representing an OpenAPI spec in `.d.ts` form, we can run type inference on it directly, without any code generation.
 
+> Spec-dts is compatible with the [Unclient](https://github.com/sinclairnick/unclient) package.
+
 ## API Reference
 
 ### `ParseSpec<T>`
